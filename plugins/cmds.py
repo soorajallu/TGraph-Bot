@@ -33,8 +33,8 @@ async def start(bot, update):
 async def help_user(bot, update):
     #logger.info(update)
     buttons = [[
-        InlineKeyboardButton('📌 Support Group', url='https://t.me/Dx_Support'),
-        InlineKeyboardButton('Update Channel 📜', url='https://t.me/DX_Botz')
+        InlineKeyboardButton('📌 Support Group', url='https://t.me/Hbbotzchat'),
+        InlineKeyboardButton('Update Channel 📜', url='https://t.me/hbbotz')
         ],[
         InlineKeyboardButton('♻️Share', url='tg://msg?text=**Hey%20Broh**%F0%9F%A5%B0%2C%0A__This%20Bot%20Generate%20Telegraph%20Link__%F0%9F%94%A5%0A%0A**Bot%20Link**%20%3A-%20%40TGraphDXBot'),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
