@@ -14,11 +14,11 @@ from translation import Translation
 @Client.on_message(filters.command("start"))
 async def start(bot, update):
     buttons = [[
-        InlineKeyboardButton('⚙️ Help', callback_data='help_btn'),
-        InlineKeyboardButton('Support Group 📌', url='https://t.me/Dx_Support')
+        InlineKeyboardButton('🤷🏻‍♂️ Help', callback_data='help_btn'),
+        InlineKeyboardButton('Support Group ', url='https://t.me/hbbotzchat')
         ],[
-        InlineKeyboardButton('🎸 Source Code', url='https://github.com/Jijinr/TGraph-Bot'),
-        InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
+        InlineKeyboardButton(' Source Code', url='https://t.me/hbbotzchat'),
+        InlineKeyboardButton('Close ', callback_data='cancel_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await bot.send_message(
@@ -52,7 +52,7 @@ async def help_user(bot, update):
 async def get_me_info(bot, update):
     #logger.info(update)
     buttons = [[
-        InlineKeyboardButton('🎸 Source code', url='https://github.com/Jijinr/TGraph-Bot'),
+        InlineKeyboardButton('🎸 Source code', url='https://hbbotzchat'),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
